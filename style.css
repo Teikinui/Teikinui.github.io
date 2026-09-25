@@ -1,0 +1,128 @@
+body {
+    background-color: #212121;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+}
+
+
+.menu>ul>* {
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 22px;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* ---------------------------------------- */
+
+#profil {
+    /* background-color: white; */
+    height: calc(100vh - 58px);
+}
+
+.box_photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+}
+
+.box_photo>p {
+    /* background-color: blue; */
+    width: 300px;
+    height: 300px;
+
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+
+.photo {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+/* ----------------------------------------------- */
+
+#competences {
+    background-color: bisque;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.titre_competence {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    
+}
+.box_article_competence {
+    display: flex;
+    justify-content: center;
+
+}
+
+.box_article_competence > article {
+    margin: 20px;
+    border: solid 2px black;
+    padding: 10px;
+}
+
+.box_article_competence > article > h2 {
+    margin: 0;
+}
+/* ------------------------------------ */
+#formation {
+    background-color: #212121;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.titre_formation {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: white;
+    
+}
+.box_article_formation {
+    margin: 0 auto;
+    justify-content: center;
+
+}
+
+.box_article_formation > article {
+    margin: 20px;
+    border: solid 2px black;
+    padding: 10px;
+    background-color: white;
+}
+
+.box_article_formation > article > h2 {
+    margin: 0;
+    color: black;
+}
+
+.box_article_formation > article > p {
+    margin-top: 0;
+}
