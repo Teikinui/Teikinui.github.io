@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
     background-color: #212121;
 }
@@ -130,6 +134,8 @@ a {
 #experiences {
     background-color: bisque;
     display: flex;
+    flex-direction: column;
+    
 }
 #experiences > h1 {
     font-family: "Fira Sans", sans-serif;
@@ -139,4 +145,51 @@ a {
     margin-bottom: 20px;
     margin-top: 20px;
     color: black;
+}
+
+/* .effet_hover:hover {
+
+} */
+
+.experiences_flex {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.experiences_flex > div {
+    width: 700px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: auto;
+    background-color: white;
+    justify-content: center;
+}
+
+
+.experiences_flex h2{
+    margin-bottom: 0;
+    text-align: center;
+}
+.experiences_flex p {
+    margin: 0;
+    text-align: center;
+}
+.lieu_poste {
+    font-style: italic;
+}
+#projets {
+    display: flex;
+    flex-direction: column;
+}
+
+.titre_projet {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: white;
 }
