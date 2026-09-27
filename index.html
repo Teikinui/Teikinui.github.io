@@ -4,196 +4,195 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Teikinui DECIAN</title>
     <link rel="stylesheet" href="style.css">
-    <title>Teikinui CV</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header>
-        <nav class="menu">
-            <ul>
-                <a href="#profil">Profil</a>
-                <a href="#competences">Compétences</a>
-                <a href="#formation">Formation</a>
-                <a href="#experiences">Expériences</a>
-                <a href="#projets">Projets</a>
-                <a href="#contact">Contact</a>
-            </ul>
+        <nav>
+            <a href="#profil">Profil</a>
+            <a href="#competences">Compétences</a>
+            <a href="#formation">Formation</a>
+            <a href="#experiences">Expériences</a>
+            <a href="#projets">Projets</a>
+            <!-- <a href="#contact">Contact</a> -->
         </nav>
-
     </header>
-    <div id="profil" class="section">
-        <div class="box_photo">
-            <img src="images/DECIAN_Teikinui_Photo.JPG" alt="Photo" class="photo">
-            <p><b>Teikinui DECIAN</b><br><br>
-                Actuellement en Master of Science Cloud à EPITECH, je développe mes compétences autour des
-                infrastructures informatiques, du réseau et de la cybersécurité. <br><br>
-                Ce portfolio présente mon parcours, mes compétences et les projets qui me permettent d’avancer vers mon
-                objectif : devenir Architecte Cloud.</p>
-        </div>
-    </div>
-    <div id="competences">
-        <h1 class="titre_competence">COMPETENCES</h1>
-        <div class="box_article_competence">
-            <article>
-                <h2>Virtualisation</h2>
-                <ul>
-                    <li>Hyper-V</li>
-                    <li>VMware</li>
-                    <li>Proxmox</li>
-                </ul>
-            </article>
 
-            <article>
-                <h2>Cloud & Sécurité</h2>
-                <ul>
-                    <li>Cloudflare ZTNA</li>
-                    <li>Microsoft Entra ID</li>
-                    <li>Microsoft Intune</li>
-                </ul>
-            </article>
+    <main>
+        <section id="profil" class="section-profil">
+            <img src="images/DECIAN_Teikinui_Photo.JPG" alt="Photo de Teikinui DECIAN" class="photo-profil">
 
-            <article>
-                <h2>Scripting & Automatisation</h2>
-                <ul>
-                    <li>PowerShell</li>
-                    <li>Bash</li>
-                    <li>Python</li>
-                    <li>Rundeck</li>
-                    <li>n8n</li>
-                </ul>
-            </article>
-
-            <article>
-                <h2>AI</h2>
-                <ul>
-                    <li>Claude Code</li>
-                    <li>Codex</li>
-                    <li>Pi Agent</li>
-                </ul>
-            </article>
-        </div>
-        <div class="box_article_competence">
-            <article>
-                <h2>Conteneur</h2>
-                <ul>
-                    <li>Docker</li>
-                    <li>Kubernetes (en cours)</li>
-                </ul>
-            </article>
-
-            <article>
-                <h2>Git</h2>
-                <ul>
-                    <li>Notions</li>
-                    <li>Forgejo auto-hébergé sur un NAS peronnel</li>
-                </ul>
-            </article>
-
-            <article>
-                <h2>Système & Réseau</h2>
-                <ul>
-                    <li>Administration systèmes et réseaux</li>
-                    <li>support N1/N2</li>
-                </ul>
-            </article>
-
-        </div>
-    </div>
-
-    <div id="formation">
-        <h1 class="titre_formation">FORMATION</h1>
-        <div class="box_article_formation">
-            <article>
-                <h2>Epitech Paris - Master of Science Cloud</h2>
-                <p>Septembre 2026 - Juin 2029</p>
-                <ul>
-                    <li>Scripting : Python / HTLM / CSS</li>
-                    <li>Formations Cloud : AWS / Google</li>
-                </ul>
-            </article>
-
-            <article>
-                <h2>BTS SIO Solution d'infrastructure</h2>
-                <p>Septembre 2022 - Juin 2024</p>
-                <ul>
-                    <li>Réseaux : Routage dynamique / Statique / Configuration switch</li>
-                    <li>Scripting : Python, PowerShell, HTML, CSS</li>
-                    <li>Virtualisation : Hyper-V / VirtualBox</li>
-                    <li>Administration : GPO / Gestion des droits / SMB</li>
-                </ul>
-            </article>
-
-            <article>
-                <h2>BAC Scientifique - Physique Chimie</h2>
-                <p>Septembre 2017 - Juin 2018</p>
-            </article>
-
-        </div>
-    </div>
-
-    <div id="experiences">
-        <h1 class="titre_formation">EXPERIENCES</h1>
-        <div class="experiences_flex">
-            <div>
-                <h2>Technicien Sécurité Opérationnelle</h2>
-                <p class="lieu_poste">Gouvernement de la Polynésie française</p>
-                <p>Novembre 2022 - Août 2026</p>
+            <div class="presentation">
+                <h1>Teikinui DECIAN</h1>
+                <h2>Étudiant en Cloud et infrastructures</h2>
                 <p>
-                <ul>
-                    <li>Campagne de phishing</li>
-                    <li>EDR / SOC</li>
-                    <li>Mise en place d'une architecture ZeroTrust</li>
-                    <li>Ticketing sécurité</li>
-                    <li>Gestion des accès : Microsoft Entra ID / Intune</li>
-                </ul>
+                    Actuellement en Master of Science Cloud à EPITECH, je développe mes compétences dans les
+                    infrastructures informatiques, le réseau et la cybersécurité.
+                </p>
+                <p>
+                    Ce portfolio présente mon parcours, mes compétences et mes projets. Mon objectif est de devenir
+                    Architecte Cloud.
                 </p>
             </div>
-            <div>
-                <h2>Technicien Support N1/N2</h2>
-                <p class="lieu_poste">Chang Sang Consulting</p>
-                <p>Janvier 2024 - Février 2024</p>
-                <p>
-                <ul>
-                    <li>Intervenir sur site pour des dépannages et des installations, garantissant la continuité de
-                        service</li>
-                    <li>Assister les utilisateurs et résoudre les incidents de niveau 1 et 2</li>
-                    <li>Préparer un serveur de virtualisation VMware avec NAS Synology et switch Cisco</li>
+        </section>
 
-                </ul>
-                </p>
-            </div>
-            <div>
-                <h2>Technicien administrateur réseau</h2>
-                <p class="lieu_poste">Electricité de Tahiti</p>
-                <p>Mai 2023 - Juin 2023</p>
-                <p>
-                <ul>
-                    <li>Mettre en place un serveur Rundeck sous Red Hat</li>
-                    <li>Améliorer des scripts PowerShell pour leur intégration à Rundeck</li>
-                </ul>
-                </p>
-            </div>
-        </div>
-    </div>
+        <section id="competences" class="section-claire">
+            <h2>Compétences</h2>
 
-    <div id="projets">
-        <h1 class="titre_projet">PROJETS</h1>
-        <div class="experiences_flex">
-            <div>
-                <img src="" alt="">
-                <p></p>
-            </div>
-        </div>
-    </div>
+            <div class="grille-cartes">
+                <article class="carte">
+                    <h3>Virtualisation</h3>
+                    <ul>
+                        <li>Hyper-V</li>
+                        <li>VMware</li>
+                        <li>Proxmox</li>
+                    </ul>
+                </article>
 
+                <article class="carte">
+                    <h3>Cloud & sécurité</h3>
+                    <ul>
+                        <li>Cloudflare ZTNA</li>
+                        <li>Microsoft Entra ID</li>
+                        <li>Microsoft Intune</li>
+                    </ul>
+                </article>
+
+                <article class="carte">
+                    <h3>Scripting</h3>
+                    <ul>
+                        <li>PowerShell</li>
+                        <li>Bash</li>
+                        <li>Python</li>
+                        <li>Rundeck</li>
+                        <li>n8n</li>
+                    </ul>
+                </article>
+
+                <article class="carte">
+                    <h3>Conteneurs</h3>
+                    <ul>
+                        <li>Docker</li>
+                        <li>Kubernetes (en cours)</li>
+                    </ul>
+                </article>
+
+                <article class="carte">
+                    <h3>Git</h3>
+                    <ul>
+                        <li>Notions</li>
+                        <li>Forgejo auto-hébergé sur un NAS personnel</li>
+                    </ul>
+                </article>
+
+                <article class="carte">
+                    <h3>Système & réseau</h3>
+                    <ul>
+                        <li>Administration systèmes et réseaux</li>
+                        <li>Support N1/N2</li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+
+        <section id="formation" class="section-sombre">
+            <h2>Formation</h2>
+
+            <div class="liste">
+                <article class="bloc">
+                    <h3>EPITECH Paris - Master of Science Cloud</h3>
+                    <p class="date">Septembre 2026 - Juin 2029</p>
+                    <ul>
+                        <li>Scripting : Python, HTML, CSS</li>
+                        <li>Formations Cloud : AWS / Google Cloud</li>
+                    </ul>
+                </article>
+
+                <article class="bloc">
+                    <h3>BTS SIO option SISR</h3>
+                    <p class="date">Septembre 2022 - Juin 2024</p>
+                    <ul>
+                        <li>Réseaux : routage, configuration switch</li>
+                        <li>Scripting : Python, PowerShell, HTML, CSS</li>
+                        <li>Virtualisation : Hyper-V / VirtualBox</li>
+                        <li>Administration : GPO, droits utilisateurs, SMB</li>
+                    </ul>
+                </article>
+
+                <article class="bloc">
+                    <h3>BAC Scientifique - Physique Chimie</h3>
+                    <p class="date">Septembre 2017 - Juin 2018</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="experiences" class="section-claire">
+            <h2>Expériences</h2>
+
+            <div class="liste">
+                <article class="bloc">
+                    <h3>Technicien Sécurité Opérationnelle</h3>
+                    <p class="entreprise">Gouvernement de la Polynésie française</p>
+                    <p class="date">Novembre 2022 - Août 2026</p>
+                    <ul>
+                        <li>Campagnes de phishing</li>
+                        <li>EDR / SOC</li>
+                        <li>Mise en place d'une architecture Zero Trust</li>
+                        <li>Ticketing sécurité</li>
+                        <li>Gestion des accès avec Microsoft Entra ID / Intune</li>
+                    </ul>
+                </article>
+
+                <article class="bloc">
+                    <h3>Technicien Support N1/N2</h3>
+                    <p class="entreprise">Chang Sang Consulting</p>
+                    <p class="date">Janvier 2024 - Février 2024</p>
+                    <ul>
+                        <li>Dépannages et installations sur site</li>
+                        <li>Assistance utilisateurs et résolution d'incidents</li>
+                        <li>Préparation d'un serveur VMware avec NAS Synology et switch Cisco</li>
+                    </ul>
+                </article>
+
+                <article class="bloc">
+                    <h3>Technicien administrateur réseau</h3>
+                    <p class="entreprise">Électricité de Tahiti</p>
+                    <p class="date">Mai 2023 - Juin 2023</p>
+                    <ul>
+                        <li>Mise en place d'un serveur Rundeck sous Red Hat</li>
+                        <li>Amélioration de scripts PowerShell pour Rundeck</li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+
+        <section id="projets" class="section-sombre">
+            <h2>Projets</h2>
+
+            <article class="projet">
+                <img src="images/IMG_0781.jpeg" alt="Photo du projet infrastructure">
+                <div>
+                    <h3>Infrastructure conteneurisée</h3>
+                    <p>
+                        Déploiement de services Docker avec un accès Zero Trust Cloudflare, une authentification
+                        centralisée et de la supervision.
+                    </p>
+                </div>
+            </article>
+        </section>
+
+
+        <!-- <section id="contact" class="section-claire contact">
+            <h2>Contact</h2>
+            <p>Pour me contacter : <strong></strong></p>
+        </section> -->
+    </main>
 </body>
 
 </html>
